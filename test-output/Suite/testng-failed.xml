@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="TestCases.listneres"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="login test(failed)">
+    <classes>
+      <class name="TestCases.Visibletext">
+        <methods>
+          <include name="logout"/>
+          <include name="InvokeBrowser"/>
+        </methods>
+      </class> <!-- TestCases.Visibletext -->
+      <class name="TestCases.LoginTest">
+        <methods>
+          <include name="logout"/>
+          <include name="InvokeBrowser"/>
+        </methods>
+      </class> <!-- TestCases.LoginTest -->
+      <class name="TestCases.Vlaidation">
+        <methods>
+          <include name="verifyheaderemessage"/>
+          <include name="logout"/>
+          <include name="InvokeBrowser"/>
+        </methods>
+      </class> <!-- TestCases.Vlaidation -->
+    </classes>
+  </test> <!-- login test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

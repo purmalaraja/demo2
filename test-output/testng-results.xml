@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="43060" started-at="2020-01-05T07:28:43Z" finished-at="2020-01-05T07:29:26Z">
+    <groups>
+    </groups>
+    <test name="Validating  title" duration-ms="25023" started-at="2020-01-05T07:28:43Z" finished-at="2020-01-05T07:29:08Z">
+      <class name="TestCases.LoginTest">
+        <test-method status="PASS" signature="InvokeBrowser()[pri:0, instance:TestCases.LoginTest@7c75222b]" name="InvokeBrowser" is-config="true" duration-ms="7352" started-at="2020-01-05T02:28:43Z" finished-at="2020-01-05T02:28:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvokeBrowser -->
+        <test-method status="PASS" signature="Loginsign()[pri:0, instance:TestCases.LoginTest@7c75222b]" name="Loginsign" duration-ms="17081" started-at="2020-01-05T02:28:50Z" finished-at="2020-01-05T02:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginsign -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:TestCases.LoginTest@7c75222b]" name="logout" is-config="true" duration-ms="59" started-at="2020-01-05T02:29:08Z" finished-at="2020-01-05T02:29:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TestCases.LoginTest -->
+    </test> <!-- Validating  title -->
+    <test name="Vidisible text" duration-ms="9235" started-at="2020-01-05T07:29:08Z" finished-at="2020-01-05T07:29:17Z">
+      <class name="TestCases.Visibletext">
+        <test-method status="PASS" signature="InvokeBrowser()[pri:0, instance:TestCases.Visibletext@2ed0fbae]" name="InvokeBrowser" is-config="true" duration-ms="7857" started-at="2020-01-05T02:29:08Z" finished-at="2020-01-05T02:29:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvokeBrowser -->
+        <test-method status="PASS" signature="verifycontcatbar()[pri:0, instance:TestCases.Visibletext@2ed0fbae]" name="verifycontcatbar" duration-ms="710" started-at="2020-01-05T02:29:16Z" finished-at="2020-01-05T02:29:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycontcatbar -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:TestCases.Visibletext@2ed0fbae]" name="logout" is-config="true" duration-ms="94" started-at="2020-01-05T02:29:17Z" finished-at="2020-01-05T02:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TestCases.Visibletext -->
+    </test> <!-- Vidisible text -->
+    <test name="login test" duration-ms="8708" started-at="2020-01-05T07:29:17Z" finished-at="2020-01-05T07:29:26Z">
+      <class name="TestCases.Vlaidation">
+        <test-method status="PASS" signature="InvokeBrowser()[pri:0, instance:TestCases.Vlaidation@5ef60048]" name="InvokeBrowser" is-config="true" duration-ms="6666" started-at="2020-01-05T02:29:17Z" finished-at="2020-01-05T02:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvokeBrowser -->
+        <test-method status="FAIL" signature="verifyheaderemessage()[pri:0, instance:TestCases.Vlaidation@5ef60048]" name="verifyheaderemessage" duration-ms="677" started-at="2020-01-05T02:29:24Z" finished-at="2020-01-05T02:29:25Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED COURSE] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED COURSE] but found [FEATURED COURSES]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at TestCases.Vlaidation.verifyheaderemessage(Vlaidation.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:663)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:849)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1157)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1200)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1125)
+	at org.testng.TestNG.run(TestNG.java:1033)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyheaderemessage -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:TestCases.Vlaidation@5ef60048]" name="logout" is-config="true" duration-ms="651" started-at="2020-01-05T02:29:25Z" finished-at="2020-01-05T02:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- TestCases.Vlaidation -->
+    </test> <!-- login test -->
+  </suite> <!-- Suite -->
+</testng-results>

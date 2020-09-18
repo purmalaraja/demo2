@@ -1,0 +1,4 @@
+14:12:02.697 [main] INFO  TestCases.Vlaidation - application entered url
+14:12:02.825 [main] INFO  TestCases.Vlaidation - application displayed
+14:12:06.415 [main] INFO  TestCases.Vlaidation - driver is initialized
+14:12:09.709 [main] INFO  TestCases.Vlaidation - application navigated
